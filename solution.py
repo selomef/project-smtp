@@ -17,7 +17,7 @@ mailserver = ('mail.nyu.edu', 2525)
 clientSocket = socket.socket(AF_INET , SOCK_STREAM)
 
 clientSocket.connect(mailserver)
-clientSocket.listen()
+
    # Fill in end
 
 recv = clientSocket.recv(1025)
